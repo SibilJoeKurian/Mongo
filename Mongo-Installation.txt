@@ -1,0 +1,38 @@
+Download the mongo .zip file from the below link:
+Always download it as a zip
+https://www.mongodb.com/download-center/community
+
+Extract the folder and check it there is a bin folder.
+Make a new empty folder
+
+
+Setting up the database path:
+Open up a terminal and do to the folder where you have the zip file and fetch to bin directory:
+Run mongod.exe using the variables --dbpath=="folder where you want to put the databae data"
+example:C:Users/..bin> mongod.exe --dbpath=/Users/Sibil/Mongo-Data
+
+Installing the GUI for MongoDB--Robo3T
+Creating a new connection in Robo3T:
+In the Connection tab:
+Type:Direct Connection
+Name:Choose any connection name, example: Local Database
+Address:same... localhost and same port as shown
+
+Right click on local Database and open the shell:
+type a simple command;
+db.version()
+click on the play button
+
+MongoDb -Drivers
+https://mongodb.github.io/node-mongodb-native/?jmp=docs
+
+npm mongodb
+https://www.npmjs.com/package/mongodb
+
+Testing MongoDB
+Make a folder, and navigate to the folder from cmd and type the command >npm init -y 
+For installing the json file
+>npm install mongodb
+
+
+
