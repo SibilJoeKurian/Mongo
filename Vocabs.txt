@@ -1,0 +1,14 @@
+check push
+
+https://github.com/SibilJoeKurian/Mongo.git
+
+git push -u orgin master
+
+Vocabs
+Mongos & Sql
+Table is known as collection in No-Sql
+Rows are known as Documents in No-Sql
+Columns are known as Field in No-Sql
+
+Collection is a list of entries, individual entries are reffered to as documents and a document can have as many fields as you need!
+ 
